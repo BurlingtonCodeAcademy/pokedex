@@ -100,3 +100,23 @@ button.addEventListener("click", (e) => {
     getPokemon()
 
 })
+
+// Git Branching Notes
+
+/* 
+    Branches in git are like alternate timelines.
+
+    They allow you to make changes to your code in a separate branch.
+
+    Those changes do not affect the branch you branched off of.
+
+    This is good for building new features without affecting existing, healthy code.
+*/
+
+// Commands to create a new branch
+
+// git branch <branch_name> - creates a new branch from the branch you're currently in.
+
+// git checkout <branch_name> - moves you to a branch
+
+// git checkout -b <branch_name> - creates new branch (-b) and checks you out into it in one line.
